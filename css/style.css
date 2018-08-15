@@ -7,14 +7,21 @@
 	font-family: sans-serif;
 }
 
-.main-header, .main-footer {
+.main-header {
 	position: relative;
 	width: 100%;
 	height: 8%;
 	background-color: gray;
-	text-align: center;
 	display : flex;
- 	align-items : center;
+	color: white;
+}
+
+.main-footer {
+	position: relative;
+	width: 100%;
+	height: 8%;
+	background-color: gray;
+	display : flex;
 	color: white;
 }
 
@@ -22,8 +29,115 @@
 	position: relative;
 	width: 100%;
 	height: 84%;
+	padding-top: 5%;
 }
 
 .color-red {
 	color: red;
+}
+
+.login-fields {
+	width: 80%;
+	height: 50%;
+	margin: auto;
+	margin-top: 50%;
+}
+
+.login-fields-header {
+	width: 100%;
+	height: 20%;
+	background-color: gray;
+}
+
+.login-fields-content {
+	width: 100%;
+	height: 70%;
+}
+
+.login-fields-footer {
+	width: 100%;
+	height: 10%;
+}
+
+.header-login-text {
+	position: relative;
+	top: 10%;
+	color: white;
+	font-size: 5vh;
+}
+
+.username {
+	margin-left: 5%;
+	float: left;
+}
+
+.totaltrip {
+	color: lightgrey;
+	float: right;
+}
+
+.w40h100 {
+	width: 40%;
+	height: 100%;
+}
+
+.w45h100 {
+	width: 45%;
+	height: 100%;
+}
+
+.w15h100 {
+	width: 15%;
+	height: 100%;
+}
+
+.text-middle {
+	margin: auto;
+}
+
+.text-align-center {
+	text-align: center;
+}
+
+.logout-buton {
+	padding: 5px 10px;
+	background-color: #ff2828;
+	border-radius: 50%;
+	float: right;
+}
+
+.logout-buton:hover {
+	background-color: #ff8787;
+}
+
+.span-green-round {
+	padding: 10px;
+	background-color: #15ff00;
+	border-radius: 50%;
+	margin-left: 3%;
+}
+
+.span-red-round {
+	padding: 10px;
+	background-color: red;
+	border-radius: 50%;
+	margin-left: 3%;
+}
+
+.device-status {
+	float: right;
+}
+
+#chartdiv {
+	width	: 100%;
+	height	: 50%;
+}
+
+.user-info {
+	padding: 1%;
+}
+
+.w50 {
+	width: 50%;
+	float: left;
 }

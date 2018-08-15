@@ -1,6 +1,6 @@
 $(document).ready(function(){
 
-	var param = {'url': '../html/content/contoh.html'};
+	var param = {'url': '../html/content/dashboard.html'};
 
 	function ajaxGetHtml(param){
 		var responseGet;
