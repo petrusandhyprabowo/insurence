@@ -141,3 +141,37 @@
 	width: 50%;
 	float: left;
 }
+
+a:link, a:visited, a:active, a:hover {
+    text-decoration: none;
+}
+.modal{
+	margin-top: 120px;
+}
+.space{
+	margin-bottom: 15px;
+}
+
+.modal-body-confirm{
+	height: 250px;
+}
+
+.space-up{
+	margin-top: 80px;
+}
+
+.full{
+	width: 100%;
+	padding-left: 0 !important;
+	padding-right: 0 !important;
+}
+.x_panel{
+	height: 100%;
+	border: 0 !important;
+}
+body{
+	background: #fff !important;
+}
+.row{
+	width: 100%;
+}
